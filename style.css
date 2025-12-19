@@ -1,0 +1,56 @@
+body {
+    background-color: #fce4ec; /* Rosa claro de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 90%;
+}
+
+h1 {
+    color: #d81b60;
+}
+
+.gif-main {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.botones {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative; /* Importante para mover el botón No */
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#btn-si {
+    background-color: #4caf50; /* Verde */
+    color: white;
+}
+
+#btn-no {
+    background-color: #f44336; /* Rojo */
+    color: white;
+    position: relative;
+}
